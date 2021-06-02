@@ -1,5 +1,4 @@
-
 <div>
-    <button (click) = "onClick()">Change photo</button>
+    <button class="button" (click)="onClick()">Change photo</button>
 </div>
-<img *ngIf="imageUrl" [src] = "imageUrl" />
+<img *ngIf="imageUrl" [src]="imageUrl" />
